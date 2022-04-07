@@ -23,12 +23,12 @@ int main(void)
 		if (line == NULL)
 			return (0);
 
-		if (strcmp(line, "exit") == 0)
+		if (_strcmp(line, "exit") == 0)
 		{
 			free(line);
 			return (0);
 		}
-		if (strcmp(line, "env") == 0)
+		if (_strcmp(line, "env") == 0)
 		{
 			_printenv();
 			free(line);

@@ -37,6 +37,7 @@ int func_exec(char **args)
 		if (execve(getcmd, args, NULL) == -1)
 		{
 			perror("Error : execve");
+			return (O);
 		}
 	}
 	else

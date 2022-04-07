@@ -8,6 +8,6 @@
 void ctrl_c(int signal)
 {
 	(void)signal;
-	printf("\n");
+	write(1, "\n", 1);
 	write(1, "#cisfun$ ", 9);
 }

@@ -4,9 +4,8 @@ In this repository you will find a simple shell done in a project team for Holbe
 This shell works on : interactive and non interactive mode. 
 
 ## Usage
- EXAMPLE: If you type "ls | wc" in your shell:
- * fd1 = command(0, 1, 0), with args[0] = "ls"
- * fd3 = command(fd2, 0, 1), with args[0] = "wc"
+ EXAMPLE: If you type .... in your shell:
+ 
  * So if 'command' returns a file descriptor, the next 'command' has this
  * descriptor as its 'input'.
 

@@ -56,6 +56,6 @@ $
  <h1 style="color: crimson;text-align: center;"> UNIX Operating System -<p><img src="https://pluspng.com/img-png/github-octocat-png--896.gif" alt="github avatar" width="62px"></p>  Simple_Shell clone project </h1>
 
 ## AuthorS
-* **Gregoire Coudrin** - [greg coudrin](https://github.com/Gregcoudrin)
-* **Raphael Chemouni** - [raphaelchemouni](https://github.com/rafyc)
+* **Gregoire Coudrin** - [Greg Coudrin](https://github.com/GregCoudrin)
+* **Raphael Chemouni** - [RaphaelChemouni](https://github.com/rafyc)
 * **Siham Badyine** -    [Sb0009](https://github.com/Sb0009)

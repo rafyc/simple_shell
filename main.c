@@ -21,7 +21,7 @@ int main(void)
 
 		line = func_read();
 		if (line == NULL)
-			return (0);
+			continue;
 
 		if (_strcmp(line, "exit") == 0)
 		{

@@ -21,7 +21,7 @@ int main(void)
 
 		line = func_read();
 		if (line == NULL)
-			return (0);
+			continue;
 
 		if (_strcmp(line, "exit") == 0)
 		{
@@ -37,6 +37,7 @@ int main(void)
 		args = func_split(line);
 		if (args == NULL)
 		{
+			free_grid(args);
 			free(line);
 			free(args);
 			continue;

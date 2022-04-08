@@ -1,7 +1,6 @@
-
 ## Description
 In this repository you will find a simple shell done in a project team for Holberton School.
-This shell works on : interactive and non interactive mode. 
+This shell works on : interactive and non interactive mode.
 
 ## Usage
  EXAMPLE: If you type .... in your shell:

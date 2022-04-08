@@ -29,6 +29,7 @@ char *get_path(char *getcmd)
 		if (stat(newpath, &st) == 0)
 			return (newpath);
 	}
+	free(path);
 	free(newpath);
 	return (NULL);
 }

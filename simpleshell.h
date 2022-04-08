@@ -27,10 +27,6 @@ int _strlen(char *s);
 int _strcmp(char *s1, char *s2);
 int _strncmp(char *s1, char *s2, int n);
 char **split_env(char *path);
-<<<<<<< HEAD
-void red(void);
-=======
 void free_grid(char **grid);
 
->>>>>>> 731a48016c53cbccd98fd56f81f11f1eb381ed4f
 #endif

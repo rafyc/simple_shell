@@ -8,7 +8,7 @@
 
 char **func_split(char *line)
 {
-	int size = 1024;
+	int size = 64;
 	int i = 0;
 	char **tab_token = malloc(size * sizeof(char *));
 	char *token;

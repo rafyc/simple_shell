@@ -20,10 +20,6 @@ int func_exec(char **args)
 
 	if (my_pid == 0)
 	{
-		if (args[0] == NULL)
-		{
-			perror("Error : no argument");
-		}
 		
 		if (getcmd[0] == '/' || getcmd[0] == '.')
 		{
@@ -33,7 +29,11 @@ int func_exec(char **args)
 		{
 			getcmd = get_path(args[0]);
 		}
-
+		
+		if (args[0] == NULL)
+		{
+			perror("Error : no argument");
+		}
 
 		if (execve(getcmd, args, NULL) == -1)
 		{

@@ -9,16 +9,17 @@
  *
  * Return: Nothing.
  */
-
 void free_grid(char **grid)
 {
-	int i;
-  int height;
-  
-  for (i = 0; grid[i] != '\n', i++)
-    height = grid[i];
+        int i = 0;
+        int height;
 
-	for (i = 0; i < height; i++)
-		free(grid[i]);
-	free(grid);
+        while (grid[i])
+                i++;
+
+        height = i;
+
+        for (i = 0; i < height; i++)
+                free(grid[i]);
+        free(grid);
 }

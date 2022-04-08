@@ -20,15 +20,12 @@ int main(void)
 			write(1, "#cisfun$ ", 9);
 
 		line = func_read();
-		if (line == NULL)
-			return (0);
-
-		if (_strcmp(line, "exit") == 0)
+		if (line == NULL || (_strcmp(line, "exit") == 0))
 		{
-			free(line);
+			free (line);
 			return (0);
 		}
-		if (_strcmp(line, "env") == 0)
+		else if (_strcmp(line, "env") == 0)
 		{
 			_printenv();
 			free(line);

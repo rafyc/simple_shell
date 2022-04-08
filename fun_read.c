@@ -23,8 +23,7 @@ char *func_read(void)
 	
 	if (line[0] == '\0')
         {
-                free(line);
-                return (NULL);
+            return (NULL);
         }
 	
 	return (line);

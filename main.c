@@ -37,6 +37,7 @@ int main(void)
 		args = func_split(line);
 		if (args == NULL)
 		{
+			free_grid(args);
 			free(line);
 			free(args);
 			continue;

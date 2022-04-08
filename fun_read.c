@@ -20,6 +20,12 @@ char *func_read(void)
 	}
 	if (line[len - 1] == '\n')
 		line[len - 1] = '\0';
-
+	
+	if (line[0] == '\0')
+        {
+                free(line);
+                return (NULL);
+        }
+	
 	return (line);
 }

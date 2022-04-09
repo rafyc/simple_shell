@@ -36,7 +36,6 @@ int func_exec(char **args)
 		}
 		if (getcmd == NULL)
 		{
-			free(args);
 			free(getcmd);
 			perror("Error : execve");
 			return (0);	

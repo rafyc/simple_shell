@@ -20,11 +20,11 @@ char *func_read(void)
 	}
 	if (line[len - 1] == '\n' && line[1] != '\0')
 		line[len - 1] = '\0';
-	
+
 	if (line[0] == '\0')
-    {
+	{
 		printf("ffffffffff");
-        return (NULL);
-    }
+		return (NULL);
+	}
 	return (line);
 }

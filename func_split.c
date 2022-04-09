@@ -29,6 +29,6 @@ char **func_split(char *line)
 		token = strtok(NULL, " ");
 	}
 	tab_token[i] = NULL;
-	
+
 	return (tab_token);
 }

@@ -54,6 +54,6 @@ $
  <h1 style="color: crimson;text-align: center;"> UNIX Operating System -<p><img src="https://pluspng.com/img-png/github-octocat-png--896.gif" alt="github avatar" width="62px"></p>  Simple_Shell clone project </h1>
 
 ## AuthorS
-* **Gregoire Coudrin** - [Greg Coudrin](https://github.com/GregCoudrin)[![Linkedin](https://img.shields.io/badge/linked-in-369?style=flat-square&logo=linkedin&logoColor=white&color=blue)](https://www.linkedin.com/in/grégoire-coudrin-810a66230/)
+* **Gregoire Coudrin** - [Greg Coudrin](https://github.com/gregcdjm)[![Linkedin](https://img.shields.io/badge/linked-in-369?style=flat-square&logo=linkedin&logoColor=white&color=blue)](https://www.linkedin.com/in/grégoire-coudrin-810a66230/)
 * **Raphael Chemouni** - [RaphaelChemouni](https://github.com/rafyc)[![Linkedin](https://img.shields.io/badge/linked-in-369?style=flat-square&logo=linkedin&logoColor=white&color=blue)](https://www.linkedin.com/in/raphael-chemouni)
 * **Siham Badyine** -    [Sb0009](https://github.com/Sb0009)[![Linkedin](https://img.shields.io/badge/linked-in-369?style=flat-square&logo=linkedin&logoColor=white&color=blue)](https://www.linkedin.com/in/siham-badyine)

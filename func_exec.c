@@ -34,12 +34,15 @@ int func_exec(char **args)
 		{
 			perror("Error : no argument");
 		}
-
-		if (execve(getcmd, args, NULL) == -1)
+		if (getcmd == NULL)
 		{
+			free(args);
+			free(getcmd);
 			perror("Error : execve");
-			return (0);
+			return (0);	
 		}
+		else
+				execve(getcmd, args, NULL);
 	}
 	else
 	{

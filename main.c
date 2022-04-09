@@ -31,14 +31,14 @@ int main(void)
 			free(line);
 			continue;
 		}
-		args = func_split(line);
-		if (args == NULL)
-		{
-			free_grid(args);
-			free(line);
-			free(args);
-			continue;
-		}
+			args = func_split(line);
+			if (args == NULL)
+			{
+				free_grid(args);
+				free(line);
+				free(args);
+				continue;
+			}
 		if (line[1] != '\0')
 			status = func_exec(args);
 		free(line);

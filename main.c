@@ -22,7 +22,7 @@ int main(void)
 		line = func_read();
 		if (line == NULL || (_strcmp(line, "exit") == 0))
 		{
-			free (line);
+			free(line);
 			return (0);
 		}
 		else if (_strcmp(line, "env") == 0)

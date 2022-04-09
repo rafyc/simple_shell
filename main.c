@@ -22,7 +22,7 @@ int main(void)
 		line = func_read();
 		if (line == NULL || (_strcmp(line, "exit") == 0))
 		{
-			free(line);
+			free (line);
 			return (0);
 		}
 		else if (_strcmp(line, "env") == 0)
@@ -31,15 +31,15 @@ int main(void)
 			free(line);
 			continue;
 		}
-			args = func_split(line);
-			if (args == NULL)
-			{
-				free_grid(args);
-				free(line);
-				free(args);
-				continue;
-			}
-		if (line[1] != '\0')
+		args = func_split(line);
+		if (args == NULL)
+		{
+			free_grid(args);
+			free(line);
+			free(args);
+			continue;
+		}
+		if (line[0] != '\n' || line[1] != '\0')
 			status = func_exec(args);
 		free(line);
 		free(args);

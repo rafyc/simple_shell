@@ -7,7 +7,7 @@ This shell works on : interactive and non interactive mode.
 
 ## Usage
  EXAMPLE: If you type ls in your shell:
- 
+
  * So if 'command' returns a file descriptor, the next 'command' has this
  * descriptor as its 'input'.
 
@@ -60,13 +60,13 @@ $
 
 ## Algorithm (see flowchart)
 
-<p><img src="flowchart/FlowChart.jpg" alt="flowchart" width="700 px"></p> 
+<p><img src="flowchart/FlowChart.jpg" alt="flowchart" width="700 px"></p>
 
 
 
   ##  Running
 Linux O.S Ubuntu
- <h1 style="color: crimson;text-align: center;"> 
+<h1 style="color: crimson;text-align: center;">
 
 
 <p><img src="https://pluspng.com/img-png/github-octocat-png--896.gif" alt="github avatar" width="62px"></p>  Simple_Shell clone project </h1>

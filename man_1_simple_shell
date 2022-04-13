@@ -4,13 +4,13 @@
 .hy
 .SH NAME
 .PP
-simple_shell 
+simple_shell
 .SH SYNOPSIS
 .PP
 \f[B]include <simpleshell.h>
 .SH DESCRIPTION
 .PP
-**simple_shell is a mini software that reads lines from the terminal, interpretes and executes them in a standard output** 
+**simple_shell is a mini software that reads lines from the terminal, interpretes and executes them in a standard output**
 .SH  RETURN VALUE
 In success return always  0.
 If an error occured (case sensitive  or doesn't exist in the $PATH), the simple_shell exits the child process, displays an error message and returns with a new prompt.

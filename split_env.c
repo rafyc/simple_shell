@@ -16,7 +16,7 @@ char **split_env(char *path)
 	if (tab_path == NULL)
 	{
 		perror("Error : malloc");
-		exit(1);
+		return (0);
 	}
 
 	token = strtok(path, ":");

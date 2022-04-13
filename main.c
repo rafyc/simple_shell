@@ -20,12 +20,15 @@ int main(void)
 			write(1, "#cisfun$ ", 9);
 
 		line = func_read();
-		if (line == NULL || (_strcmp(line, "exit") == 0))
-		{
-			free (line);
+		if (line == NULL)
 			return (0);
+
+		if (_strcmp(line, "exit") == 0)
+		{
+			free(line);
+			exit(0);
 		}
-		else if (_strcmp(line, "env") == 0)
+		if (_strcmp(line, "env") == 0)
 		{
 			_printenv();
 			free(line);
@@ -34,12 +37,10 @@ int main(void)
 		args = func_split(line);
 		if (args == NULL)
 		{
-			free_grid(args);
 			free(line);
 			free(args);
 			continue;
 		}
-		/*if (line[0] != '\n' || line[1] != '\0')*/
 		status = func_exec(args);
 		free(line);
 		free(args);

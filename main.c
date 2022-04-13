@@ -39,8 +39,8 @@ int main(void)
 			free(args);
 			continue;
 		}
-		if (line[0] != '\n' || line[1] != '\0')
-			status = func_exec(args);
+		/*if (line[0] != '\n' || line[1] != '\0')*/
+		status = func_exec(args);
 		free(line);
 		free(args);
 	}

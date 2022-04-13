@@ -1,9 +1,9 @@
 #include "simpleshell.h"
 
 /**
-  * func_split - tokenize the line read
+  * func_split - tokenizes the line read
   * @line: line to be tokenize
-  * Return: array of tokens
+  * Return: pointer  (an array is nver returned only pointer to array)
   */
 
 char **func_split(char *line)

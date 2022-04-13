@@ -45,7 +45,7 @@ int func_exec(char **args)
 			return (0);
 		}*/
 		else
-			execve(getcmd, args, NULL);
+			execve(getcmd, args, environ);
 
 	}
 	else

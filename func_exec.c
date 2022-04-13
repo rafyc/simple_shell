@@ -33,14 +33,16 @@ int func_exec(char **args)
 		if (args[0] == NULL)
 		{
 			perror("Error : no argument");
+			return (0);
 		}
 		if (getcmd == NULL)
 		{
 			free(getcmd);
+			free(args);
 			perror("Error : execve");
 			return (0);
 		}
-		else
+		else if (execve(getcmd, args, NULL) == -1)
 				execve(getcmd, args, NULL);
 	}
 	else

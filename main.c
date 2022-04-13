@@ -25,8 +25,8 @@ int main(void)
 		}
 		if (line[i] == '\0')
 		{
-		free(line);
-		continue;
+			free(line);
+			continue;
 		}
 		if (_strcmp(line, "env") == 0)
 		{
@@ -36,11 +36,13 @@ int main(void)
 		args = func_split(line);
 		if (args == NULL)
 		{
-			free(line), free(args);
+			free(line);
 			continue;
 		}
-		status = func_exec(args);
-		free(line), free(args);
+		if (line[0] != '\n' || line[1] != '\0')
+			status = func_exec(args);
+		free(args);
+		free(line);
 	}
 	return (0);
 }

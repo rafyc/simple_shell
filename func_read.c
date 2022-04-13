@@ -18,7 +18,7 @@ char *func_read(void)
 		free(line);
 		exit(0);
 	}
-	if (line[len - 1] == '\n')
+	if (line[len - 1] == '\n' && line[1] != '\0')
 		line[len - 1] = '\0';
 
 	return (line);

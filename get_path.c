@@ -12,7 +12,7 @@ char *get_path(char *getcmd)
 	int i;
 	char *path = get_env("PATH");
 	char **tab_path = split_env(path);
-	char *newpath = malloc(sizeof(char) * 1024);
+	char *newpath = malloc(sizeof(char) * 64);
 
 	if (newpath == NULL)
 	{
@@ -27,9 +27,13 @@ char *get_path(char *getcmd)
 		_strcat(newpath, "/");
 		_strcat(newpath, getcmd);
 		if (stat(newpath, &st) == 0)
+		{
+			free(tab_path);
 			return (newpath);
+		}
 	}
 	free(newpath);
+	free(tab_path);
 	return (NULL);
 }
 

@@ -28,17 +28,25 @@ int func_exec(char **args)
 		{
 			getcmd = get_path(args[0]);
 		}
-
 		if (args[0] == NULL)
 		{
 			perror("Error : no argument");
 		}
-
-		if (execve(getcmd, args, environ) == -1)
+		if (getcmd == NULL)
 		{
+			free(getcmd);
 			perror("Error : execve");
 			return (0);
 		}
+		/*if (execve(getcmd, args, environ) == -1)
+		{
+			perror("Error : execve");
+			free(args);
+			return (0);
+		}*/
+		else
+			execve(getcmd, args, NULL);
+
 	}
 	else
 	{

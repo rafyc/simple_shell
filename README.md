@@ -3,8 +3,8 @@ In this repository you will find a simple shell done in a project team for Holbe
 This shell works on : interactive and non interactive mode.
 
 - read, parse, fork, exec, wait.
-* `builtin` : "exit", "help"
-
+* `builtin` : "exit", "help
+"
 ## Usage
  EXAMPLE: If you type ls in your shell:
 
@@ -53,23 +53,20 @@ $
 * `stdout`: stdout, used for receiving data from the child process
 * `stderr`: stderr, used for communicating logs & errors
 * `childProcess`: the process instance created via `fork()`
-
+ 
 
 
 
 
 ## Algorithm (see flowchart)
 
-<p><img src="flowchart/FlowChart.jpg" alt="flowchart" width="700 px"></p>
+<p><img src="flowchart/FlowChart.jpg" alt="flowchart" width="400 px"></p>
 
 
 
   ##  Running
 Linux O.S Ubuntu
 <h1 style="color: crimson;text-align: center;">
-
-
-<p><img src="https://pluspng.com/img-png/github-octocat-png--896.gif" alt="github avatar" width="62px"></p>  Simple_Shell clone project </h1>
 
 ## AuthorS
 * **Gregoire Coudrin** - [Greg Coudrin](https://github.com/gregcdjm)[![Linkedin](https://img.shields.io/badge/linked-in-369?style=flat-square&logo=linkedin&logoColor=white&color=blue)](https://www.linkedin.com/in/grégoire-coudrin-810a66230/)

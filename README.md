@@ -59,9 +59,7 @@ $
 
 
 ## Algorithm (see flowchart)
-
-<p><img src="flowchart/FlowChart.jpg" alt="flowchart" width="400 px"></p>
-
+<p><img src="flowchart/FlowChart.jpg" alt="flowchart" width="700 px"></p>
 
 
   ##  Running

@@ -34,7 +34,6 @@ int main(void)
 			}
 			j++;
 		}
-		printf("%d\n", i);
 		if (line[i] == '\0')
 		{
 		free(line);

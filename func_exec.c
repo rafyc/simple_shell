@@ -25,13 +25,9 @@ int func_exec(char **args)
 			getcmd = args[0];
 		}
 		else
-		{
 			getcmd = get_path(args[0]);
-		}
 		if (args[0] == NULL)
-		{
 			perror("Error : no argument");
-		}
 		if (getcmd == NULL)
 		{
 			free(getcmd);

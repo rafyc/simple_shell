@@ -38,15 +38,11 @@ int func_exec(char **args)
 			perror("Error : execve");
 			return (0);
 		}
-		/*if (execve(getcmd, args, environ) == -1)
+		if (execve(getcmd, args, environ) == -1)
 		{
 			perror("Error : execve");
-			free(args);
 			return (0);
-		}*/
-		else
-			execve(getcmd, args, environ);
-
+		}
 	}
 	else
 	{

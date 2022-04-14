@@ -3,7 +3,7 @@
 /**
  * _strlen - size of string
  * @s: string to find size
- * Return: string size
+ * Return: string size -> nbr bytes
  */
 
 int _strlen(char *s)

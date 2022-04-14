@@ -1,7 +1,7 @@
 #include "simpleshell.h"
 
 /**
-  * _strcat - Concatonates two strings
+  * _strcat - Concatenates two strings
   * @dest: The destination string
   * @src: The source string
   * Return: dest

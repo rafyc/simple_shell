@@ -1,8 +1,8 @@
 #include  "simpleshell.h"
 
 /**
-  * func_read - function that reads the stdin
-  * Return: line if succesful or NULL if failed
+  * func_read - function that reads the STDIN
+  * Return: line on success or NULL on failure
   */
 
 char *func_read(void)

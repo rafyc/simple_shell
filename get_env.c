@@ -3,7 +3,7 @@
 /**
  * get_env - get the environment variable
  * @getcmd: command
- * Return: the environment variable
+ * Return: the environment variable -> name = value
  */
 
 char *get_env(char *getcmd)

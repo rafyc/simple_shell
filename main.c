@@ -1,6 +1,6 @@
 #include "simpleshell.h"
 /**
-  * main - start the shell
+  * main - starts the shell ->entry point
   * Return: 1
   */
 int main(void)

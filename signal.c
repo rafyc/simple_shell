@@ -1,7 +1,7 @@
 #include "simpleshell.h"
 
 /**
-  * ctrl_c -  Handles ctrl + c
+  * ctrl_c - stop the current process and return to its main loop
   * @signal: signal
   */
 

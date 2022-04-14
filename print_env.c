@@ -1,7 +1,7 @@
 #include "simpleshell.h"
 
 /**
-  * _printenv - function that print the environment variables
+  * _printenv - function that prints the environment variables
   */
 
 void _printenv(void)
